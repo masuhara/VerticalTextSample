@@ -14,6 +14,9 @@
 		7AAE58A82233BDB7001A2109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE58A62233BDB7001A2109 /* LaunchScreen.storyboard */; };
 		7AAE58B32233BDB7001A2109 /* VerticalWritingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE58B22233BDB7001A2109 /* VerticalWritingSampleTests.swift */; };
 		7AAE58BE2233BDB7001A2109 /* VerticalWritingSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE58BD2233BDB7001A2109 /* VerticalWritingSampleUITests.swift */; };
+		7AAE58CC2233BDDF001A2109 /* VerticalWritingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE58CB2233BDDF001A2109 /* VerticalWritingLabel.swift */; };
+		7AAE58D12233EA0D001A2109 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE58CF2233EA0D001A2109 /* SampleTableViewCell.swift */; };
+		7AAE58D22233EA0D001A2109 /* SampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE58D02233EA0D001A2109 /* SampleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7AAE58B92233BDB7001A2109 /* VerticalWritingSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalWritingSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAE58BD2233BDB7001A2109 /* VerticalWritingSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalWritingSampleUITests.swift; sourceTree = "<group>"; };
 		7AAE58BF2233BDB7001A2109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAE58CB2233BDDF001A2109 /* VerticalWritingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalWritingLabel.swift; sourceTree = "<group>"; };
+		7AAE58CF2233EA0D001A2109 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
+		7AAE58D02233EA0D001A2109 /* SampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				7AAE589D2233BDB6001A2109 /* AppDelegate.swift */,
+				7AAE58CF2233EA0D001A2109 /* SampleTableViewCell.swift */,
+				7AAE58D02233EA0D001A2109 /* SampleTableViewCell.xib */,
 				7AAE589F2233BDB6001A2109 /* ViewController.swift */,
 				7AAE58A12233BDB6001A2109 /* Main.storyboard */,
 				7AAE58A42233BDB7001A2109 /* Assets.xcassets */,
 				7AAE58A62233BDB7001A2109 /* LaunchScreen.storyboard */,
 				7AAE58A92233BDB7001A2109 /* Info.plist */,
+				7AAE58CB2233BDDF001A2109 /* VerticalWritingLabel.swift */,
 			);
 			path = VerticalWritingSample;
 			sourceTree = "<group>";
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AAE58A82233BDB7001A2109 /* LaunchScreen.storyboard in Resources */,
+				7AAE58D22233EA0D001A2109 /* SampleTableViewCell.xib in Resources */,
 				7AAE58A52233BDB7001A2109 /* Assets.xcassets in Resources */,
 				7AAE58A32233BDB6001A2109 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AAE58A02233BDB6001A2109 /* ViewController.swift in Sources */,
+				7AAE58D12233EA0D001A2109 /* SampleTableViewCell.swift in Sources */,
+				7AAE58CC2233BDDF001A2109 /* VerticalWritingLabel.swift in Sources */,
 				7AAE589E2233BDB6001A2109 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
 				INFOPLIST_FILE = VerticalWritingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
 				INFOPLIST_FILE = VerticalWritingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
